@@ -1,7 +1,5 @@
 # Cardology
 
-# Cardology
-
 <p float="left">
   <img src="/pics/pic1.jpg" width="300" />
   <img src="/pics/pic2.jpg" width="300" />
