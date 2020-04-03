@@ -1,7 +1,5 @@
 # Cardology
 
-# Cardology
-
 <p float="left">
   <img src="/pics/pic1.jpg" width="300" />
   <img src="/pics/pic2.jpg" width="300" />
@@ -26,8 +24,18 @@ persistant SQLite storage for cards and sets, adapters and RecyclerViews
 for lists, dialog fragments, and basic XML layout structure.
 
 
+### 0.1.1 - 04-03-2020
+
+#### Added
+* Added ability to edit set names <br>
+* Added ability to edit card questions and answers
+
+#### Changed
+
+* Fixed issue where last cards and sets in RecyclerViews were being cuttoff
+
 ### 0.1 - 04-02-2020
 
 #### Added
-Initial release with basic functionality of adding remove cards and sets,
+* Initial release with basic functionality of adding remove cards and sets,
 labeling cards and sets with colors and re organizing upon color changes.

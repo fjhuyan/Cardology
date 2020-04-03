@@ -13,7 +13,6 @@ class CardsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cards2)
-        supportActionBar?.hide()
         val sid = intent.getIntExtra(CardSetAdapter.SET_ID_EXTRA, 0)
         findViewById<TextView>(R.id.small_text).text = intent.getStringExtra(CardSetAdapter.SET_TITLE)
 

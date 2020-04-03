@@ -37,9 +37,9 @@ class CardSetViewModel(application: Application) : AndroidViewModel(application)
         }
     }
 
-    fun updateSetPriority(cardSet : CardSet) {
+    fun updateSet(cardSet : CardSet) {
         viewModelScope.launch(Dispatchers.IO) {
-            repo.updateSetPriority(cardSet)
+            repo.updateSet(cardSet)
         }
     }
 

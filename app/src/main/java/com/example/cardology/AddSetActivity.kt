@@ -19,7 +19,6 @@ class AddSetActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_set)
         editWordView = findViewById(R.id.edit_word)
-        supportActionBar?.hide()
 
         var button = findViewById<Button>(R.id.low_button)
         button.setOnClickListener {

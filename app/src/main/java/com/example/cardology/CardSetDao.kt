@@ -26,7 +26,7 @@ interface CardSetDao {
     suspend fun updateCard(card: Card)
 
     @Update
-    suspend fun updateSetPriority(cardSet : CardSet)
+    suspend fun updateSet(cardSet : CardSet)
 
     @Delete
     suspend fun deleteCard(card: Card)

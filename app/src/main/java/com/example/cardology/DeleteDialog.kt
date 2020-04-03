@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
 
 class DeleteDialog(val card: Card) : DialogFragment() {
@@ -14,9 +15,11 @@ class DeleteDialog(val card: Card) : DialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
         val v = inflater.inflate(R.layout.dialog_delete, container, false)
-        val noButton = v.findViewById<Button>(R.id.no_button)
+        val editButton = v.findViewById<Button>(R.id.edit_card_button)
         val yesButton = v.findViewById<Button>(R.id.yes_button)
-        noButton.setOnClickListener {
+        editButton.setOnClickListener {
+            val editDialog = EditCardDialog(card)
+            editDialog.show((context as AppCompatActivity).supportFragmentManager, "edit_card_dialog")
             dismiss()
         }
         yesButton.setOnClickListener {

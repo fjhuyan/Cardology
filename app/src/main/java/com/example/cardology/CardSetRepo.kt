@@ -28,7 +28,7 @@ class CardSetRepo(private val dao : CardSetDao) {
         dao.deleteCardsFromSet(cardSet.sid)
     }
 
-    suspend fun updateSetPriority(cardSet : CardSet) {
-        dao.updateSetPriority(cardSet)
+    suspend fun updateSet(cardSet : CardSet) {
+        dao.updateSet(cardSet)
     }
 }

@@ -41,15 +41,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/big_padding"
-        android:layout_marginRight="@dimen/big_padding"
-        android:layout_marginBottom="@dimen/big_padding"
         android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginRight="@dimen/big_padding"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/small_text"
         app:layout_constraintVertical_bias="0.0"
+        app:layout_constrainedHeight="true"
         tools:listitem="@layout/card_simple_text_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
