@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="addSetButtonLabel">#FFFFFF</color>
+    <color name="high">#e53935</color>
+    <color name="med">#fdd835</color>
+    <color name="low">#43a047</color>
+</resources>

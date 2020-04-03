@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cardology</string>
+    <string name="add_word_set">Add Set</string>
+    <string name="set_title">Title</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Set not saved because title was empty.</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/dialog_card_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/answer"
+        android:layout_margin="@dimen/big_padding"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/high_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/high"/>
+
+        <Button
+            android:id="@+id/med_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:backgroundTint="@color/med"/>
+
+        <Button
+            android:id="@+id/low_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/low"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
